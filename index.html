@@ -1,0 +1,18 @@
+---
+layout: default
+title: cateches.is
+---
+
+<section class="posts">
+{% for post in site.posts %}
+<article class="post">
+    <header>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <small class="dateline">{{ post.date | date_to_string }}</small>
+    </header>
+    <section>
+        {{ post.excerpt }}
+    </section>
+</article>
+{% endfor %}
+</section>

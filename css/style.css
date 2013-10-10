@@ -1,0 +1,51 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #333;
+    margin: 40px;
+}
+code {
+    font-family: Consolas, monaco, monospace;
+    font-size: 12px;
+}
+header a { text-decoration: none; color: #333; }
+.page_header { text-align: center; }
+.header_img { 
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #333; 
+}
+.outlinks { font-size: 30px; }
+.dateline { display: block; }
+.post { margin-bottom: 80px; }
+.post p { text-indent: 1em; }
+@media only screen and (min-width: 700px) {
+    .posts { margin: 40px; }
+}
+
+.header_img:hover {
+  -webkit-animation: spin 1.5s ease;
+  -moz-animation: spin 1.5s ease;
+  animation: spin 1.5s ease;
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.icon-github:hover { color: #4183c4; }
+.icon-twitter:hover { color: #4099FF; }
+
+::-moz-selection { background: #cc2d22; color: #fff; }
+::selection { background: #cc2d22; color: #fff; }   
+hr { border-style: solid; }
