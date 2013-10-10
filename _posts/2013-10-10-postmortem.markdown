@@ -23,4 +23,5 @@ But there's no point belaboring the points I've already made in my previous post
 
 There may have been a host of other reasons why it failed.  It may have not been well written, I may have gone after the wrong market in my submission.  I may have used the wrong tone.  Was I too authoritative?  Keep reading though, my aunt works for quite a large bank and we're in the works of financing a Lotus!
 
+[Discuss on HN](https://news.ycombinator.com/item?id=6525272)
 
