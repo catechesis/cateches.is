@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "X is Confusing"
+date:   2013-10-10 17:30:32
+categories: fiction
+---
+
+I can't even count the number of times a week I hear it called "Oh Es Ex".  It's OS Ten.
+Usually I hear this from the somewhat oblivious, and it's somewhat understandable.  X is a confusing name.  X is everywhere in computer lingo.  Unix, Linux, OS X, X11, x86.  Even the language Haxe has an X in it because that's how a technology catches on.  But apart from the popularity, it's used horribly inconsistently. People don't understand what each one is. Let's fix that.  
+
+As I've previously said, the X in OS X is a Roman numeral.  What makes me sad about hearing OS "Ex" over and over is that most of the people who call it that don't seem to be aware there was an OS 9, an OS 8, and 7 OSes before that.  Why they decided to switch the numerals makes sense, given the triumphant return of Steve Jobs with the acquisition of NeXt.
+
+And if you've ever tried to run a port of a Linux app on OS X, you've surely seen the X11 name pop up.  But what is X11, and why would they mix a Roman numeral and arabic numerals, and why would then combine ten and eleven in a single name?  They didn't, and X11 has nothing to do with OS X by itself.  X11 is the implementation of the X Windows standard.  It's not named that because of how much work on it was done by Xerox (true story).  It's named that because X comes after W, the name of the windowing system that preceeded it.
+
+But why does Mac OS run X Windows on an x86 processor?  Simple, it's a placeholder.  Intel created a processor called the 8086.  Then they updated it to the 80286.  Then 80386.  But the systems were backwards compatible, so as long as you weren't trying to use fancy features, you could write portable code, code to run on x86 systems.
+
+But Linux? Minix?  Did you know Microsoft's first OS was called Xenix?  All Unix-like systems.  But that brings us back to Unix and why it has an x.  That starts back in 1964, with the Multics ("Multiplexed Information and Computing Service") operating system.  Multics was novel, but had its drawbacks.  After moving on from the project, members of the team that developed it created a new system, jokingly switching the multi- to uni-.  It sounds like "eunuchs", you get it.  So they changed Unics to the shorter UNIX, and that was that.
+
+So x is a popular letter to use in programming.  It's short, it's a placeholder, it's a letter, it's a number.  And if you create a new project, be more original and don't keep beating the same horse.

@@ -1,3 +1,5 @@
 name: cateches.is
 markdown: redcarpet
+redcarpet:
+  extensions: [footnotes]
 pygments: true
