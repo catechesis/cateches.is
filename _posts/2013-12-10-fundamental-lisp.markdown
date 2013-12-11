@@ -5,6 +5,8 @@ date:   2013-12-10 18:02:00
 categories: lambda
 ---
 
+*Update: No real Lisp system implements lists as shown below.  This is more of a demonstration of [Church pairs](https://en.wikipedia.org/wiki/Church_encoding#Church_pairs) than anything else.*
+
 There's a sort of crazy thing I read every once in a while, which is that lists aren't the fundamental data type in Lisp.  Lists are rampant in Lisp, they're used to form the language's AST, and it's named for its LISt Processing.  But lists aren't fundamental to the language -- they're perfectly easily derived from functions.
 
 When I mentioned this at the office today, someone asked if I meant that they're derived from functions that return them (the `list` function), but I mean lists are derived from functions because they *are* functions.  
